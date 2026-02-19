@@ -1,0 +1,26 @@
+# =========================
+# Node / Express (backend)
+# =========================
+backend/node_modules/
+backend/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Angular (frontend)
+# =========================
+frontend/urbanwear/node_modules/
+frontend/urbanwear/dist/
+frontend/urbanwear/.angular/
+frontend/urbanwear/.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Optional: lock files (usually keep them!)
+# package-lock.json
+# yarn.lock

@@ -12,6 +12,6 @@ RUN npm run build
 # Stage 2 - Serve with Nginx
 FROM nginx:latest
 
-COPY --from=builder /app/dist/urbanwear/browser /usr/share/nginx/html
+COPY --from=builder /app/dist/browser /usr/share/nginx/html
 
 EXPOSE 80

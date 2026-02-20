@@ -10,11 +10,11 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
-# Copu all source codes
+# Copy all source codes
 COPY . .
 
 # Expose port 
 EXPOSE 5000
 
 # Start the app
-CMD ["npm", "start", "dev"]
+CMD ["npm", "run", "dev"]
